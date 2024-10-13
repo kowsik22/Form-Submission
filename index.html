@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Form Submission</title>
+  </head>
+  <body>
+    <div class="container">
+      <form
+        action="https://api.web3forms.com/submit"
+        method="POST"
+        class="left"
+      >
+        <div class="left-title">
+          <h2>Contact Us</h2>
+          <hr />
+        </div>
+        <input
+          type="hidden"
+          name="access_key"
+          value="bfbedaaf-334b-4b34-a824-959846f8bb20"
+        />
+        <input
+          class="contact-inputs"
+          type="text"
+          name="name"
+          id=""
+          placeholder="Enter your sweet name"
+        />
+        <input
+          class="contact-inputs"
+          type="email"
+          name="email"
+          placeholder="Enter your email"
+        />
+        <textarea
+          class="message"
+          name="message"
+          placeholder="Enter your Feedback"
+        ></textarea>
+        <button type="submit">Submit</button>
+      </form>
+      <div class="right">
+       <img src="/assets/dhanyawaad-rocky-randhawa.gif">
+    </div>
+    
+  </body>
+</html>
