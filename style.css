@@ -81,6 +81,7 @@ body {
   transition: 0.8s all;
   box-shadow: 5px 5px 5px lightcoral;
   transform: translateY(-10px);
+  font-size: 20px;
 }
 
 @media (max-width: 800px) {
@@ -91,6 +92,8 @@ body {
 
   .right img {
     width: 150px;
+    position: relative;
+    left: 0px;
   }
   .left {
     margin-top: 10%;
@@ -120,5 +123,9 @@ body {
     border-radius: 20px;
     padding-top: 10px;
     padding-left: 10px;
+  }
+  .right img {
+    position: relative;
+    left: -3px;
   }
 }
